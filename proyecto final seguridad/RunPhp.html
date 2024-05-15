@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+        <title>Open exe</title>
+
+        <script type="text/javascript">
+        function runProgram()
+        {
+            console.log("prueba");
+            var shell = new ActiveXObject("WScript.Shell");                 
+            //var appITunes = "\"C:\\Users\\janlo\\OneDrive\\Escritorio\\prueba.bat\" ";
+            shell.Run("C:\\Users\\janlo\\OneDrive\\Escritorio\\prueba.bat");
+            
+        }        
+        </script>
+
+    </head>
+
+
+
+    <body>
+
+        <a href="javascript:runProgram()">Run program</a>
+
+    </body>
+
+</html>
